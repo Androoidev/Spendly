@@ -5,9 +5,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import com.example.spendly.R
+import com.example.spendly.ui.base.BaseActivity
 import com.example.spendly.ui.dashboard.DashboardActivity
 
-class AuthActivity : AppCompatActivity() {
+class AuthActivity : BaseActivity() {
     private lateinit var btnNavigate : AppCompatButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
